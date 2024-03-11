@@ -4,10 +4,12 @@ function name_zia() {
 
   if (b % 2 == 0 && a == "even") {
     for (i = 0; i < b; i++) {
-      document.write(`even  ` + `<br>`);
+      document.write(` this is number even  ${i + i}` + `<br>`);
     }
-  } else if (a == "odd" && b % 1 == 0) {
-    console.log("odd");
+  } else if (b % 2 ==! 0 && a == "odd") {
+    for (i = 0; i < b; i++) {
+      document.write(`this is number odd ${i}`);
+    }
   } else {
     console.log("this value is not allow");
   }
